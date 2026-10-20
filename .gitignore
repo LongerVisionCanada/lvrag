@@ -39,3 +39,7 @@ confidential.md
 **/__pycache__/
 *.pyc
 !.env.example
+
+# Local repository maintenance scripts
+/scripts/organize_lvrag.py
+/scripts/finalize_lvrag.py
