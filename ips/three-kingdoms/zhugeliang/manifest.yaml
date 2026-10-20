@@ -1,0 +1,13 @@
+id: zhugeliang
+name_zh: 诸葛亮
+name_en: Zhuge Liang
+aliases: [Kongming, 孔明, 卧龙]
+era: Three Kingdoms
+series: LVRAG Three Kingdoms Character Series
+hero_image: docs/assets/zhugeliang-hero.png
+knowledge:
+  - culture
+  - history
+  - literature
+  - original
+status: early-development

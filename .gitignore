@@ -29,9 +29,10 @@ Thumbs.db
 # 日志与临时文件
 *.log
 tmp/
-# LVRAG private assets - never commit to public GitHub
+
+# ---- LVRAG private assets ----
 confidential.md
-/ips/**/knowledge/
+*.confidential.md
 /ips/**/private/
 /ips/**/persona-private/
 **/.local/

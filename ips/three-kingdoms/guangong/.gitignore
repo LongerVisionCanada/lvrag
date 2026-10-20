@@ -1,22 +1,4 @@
-# Confidential project notes (at any directory depth)
+/private/
+/persona-private/
 confidential.md
-**/confidential.md
-
-# Local credentials and configuration
-.env
-.env.*
-!.env.example
-*.pem
-*.key
-
-# Local RAG outputs and private indexes
-.local/
-__pycache__/
-*.py[cod]
-.venv/
-venv/
-
-# Local/editor artifacts
-.DS_Store
-.idea/
-.vscode/
+*.confidential.md

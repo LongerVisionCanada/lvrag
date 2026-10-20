@@ -1,0 +1,13 @@
+id: guangong
+name_zh: 关公
+name_en: Guan Gong
+aliases: [Guan Yu, 关羽, 关云长]
+era: Three Kingdoms
+series: LVRAG Three Kingdoms Character Series
+hero_image: docs/assets/guangong-hero.png
+knowledge:
+  - culture
+  - history
+  - literature
+  - original
+status: early-development
