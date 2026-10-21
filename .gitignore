@@ -44,3 +44,9 @@ confidential.md
 # Local repository maintenance scripts
 /scripts/organize_lvrag.py
 /scripts/finalize_lvrag.py
+
+# LVRAG private IP assets
+/ips/*/*/knowledge/
+/ips/*/*/private/
+/ips/*/*/persona-private/
+/ips/*/*/confidential.md
