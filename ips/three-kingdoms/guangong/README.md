@@ -32,3 +32,13 @@
 ## 许可与素材 / License
 
 软件许可、知识内容授权与形象素材使用条款尚待确定。在正式公布许可之前，不应推定本仓库内容已获得任何特定开源许可或商业再利用授权。
+
+## Engineering status — October 2026
+
+- **Knowledge:** 10 human-reviewed, source-attributed atomic records.
+- **Runtime:** GuanGong RC1 remains deployed independently; its existing service is preserved.
+- **Compatibility:** Legacy retrieval and Universal LVRAG v0.2 matched on all 8 regression cases.
+- **HTTP:** Universal v0.2 passed local dual-agent health, retrieval, and isolation tests.
+- **Privacy:** Private knowledge sources, embeddings, and production configuration are not published in this repository.
+
+The universal runtime and regression tools are available at the repository root. This is a validated preview architecture, not a claim that the existing cloud RC1 has been migrated.

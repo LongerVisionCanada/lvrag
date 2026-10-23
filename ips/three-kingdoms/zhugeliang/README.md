@@ -32,3 +32,15 @@ Part of the **LVRAG Three Kingdoms Character Series**.
 ## 许可与素材 / License
 
 软件许可、知识内容授权与形象素材使用条款尚待确定。在正式公布许可之前，不应推定本仓库内容已获得任何特定开源许可或商业再利用授权。
+
+## Engineering status — October 2026
+
+- **Knowledge:** 10 human-reviewed, source-attributed atomic records from the historical source workflow.
+- **Source handling:** Chen Shou main text and Pei Songzhi annotations remain distinguishable, including variant accounts.
+- **Retrieval:** Local EmbeddingGemma indexing uses 768-dimensional vectors.
+- **Validation:** 8/8 conservative retrieval tests passed; the universal runtime passed dual-agent HTTP tests.
+- **Release:** ZhugeLiang Preview R2 includes an audited correction to the evidence limitation for ZGL-ATOM-0010.
+- **Cloud:** Release assets passed SHA256 verification on the Guangzhou host; separate new cloud containers have not yet been deployed.
+- **Privacy:** Private knowledge sources, embeddings, and deployment configuration are not published.
+
+The release uses Universal LVRAG v0.2, with per-agent knowledge and retrieval policies. Successful topic retrieval is not proof that every detail of a question is historically established.
